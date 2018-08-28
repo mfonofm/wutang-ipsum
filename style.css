@@ -1,0 +1,84 @@
+@font-face {
+    font-family: 'bartnormal';
+    src: url('fonts/Bart/bartn___-webfont.woff2') format('woff2'), url('fonts/Bart/bartn___-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+html,body{
+    cursor: url(images/killabee.png), default;
+}
+
+#portrait {
+    background: url(images/wu-tang-portrait.png) no-repeat;
+    background-size: cover;
+    background-color: #FFC600;
+    float: left;
+    position: relative;
+    height: 900px;
+    width: 100%;
+    border: 2px solid #FFC600;
+    opacity: 1;
+}
+
+#content {
+    background-color: #191919;
+    float: left;
+    position: relative;
+    height: 900px;
+    width: 100%;
+    border: 2px solid #FFC600;
+    border-left: none;
+}
+
+#logo {
+    height: 180px;
+    display: block;
+    margin: 40px auto;
+    background-color: #191919;
+}
+
+#desc {
+    color: #FFC600;
+    font-family: 'bartnormal', serif;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: 600;
+    word-spacing: 8px;
+    margin: 40px auto;
+}
+
+hr {
+    border: 1px solid #FFC600;
+    width: 70px;
+    margin: 40px auto;
+}
+
+select {
+    display: block;
+    margin: 0 auto;
+    font-family: monospace;
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding: 6px;
+}
+
+#lyrics-box{
+    display: block;
+    background-color: #FFFFFF;
+    border: 2px solid #FFC600;
+    margin: 40px auto;
+    padding: 15px;
+    height: 40%;
+    width: 75%;
+    overflow: auto;
+}
+
+#lyrics-output{
+    font-family: monospace;
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 500;
+}
