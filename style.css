@@ -5,12 +5,13 @@
     font-style: normal;
 }
 
-html,body{
+html,
+body {
     cursor: url(images/killabee.png), default;
 }
 
 #portrait {
-    background: url(images/wu-tang-portrait.png) no-repeat;
+    background: url(images/wu-tang-portrait-bw-min.jpg) no-repeat;
     background-size: cover;
     float: left;
     position: relative;
@@ -20,8 +21,8 @@ html,body{
     opacity: 0.8;
 }
 
-@media screen and (max-width: 768px){
-    #portrait{
+@media screen and (max-width: 768px) {
+    #portrait {
         border-bottom: 0px;
     }
 }
@@ -36,8 +37,8 @@ html,body{
     border-left: 0px;
 }
 
-@media screen and (max-width: 768px){
-    #content{
+@media screen and (max-width: 768px) {
+    #content {
         border-left: 1px solid #FFC600;
     }
 }
@@ -73,10 +74,15 @@ select {
     font-weight: 700;
     text-transform: uppercase;
     padding: 6px;
-    border: 1px solid #FFC600;
 }
 
-#lyrics-box{
+@media screen and (min-width: 768px) {
+    select {
+        border: 1px solid #FFC600;
+    }
+}
+
+#lyrics-box {
     display: block;
     background-color: #FFFFFF;
     border: 1px solid #FFC600;
@@ -87,7 +93,7 @@ select {
     overflow: auto;
 }
 
-#lyrics-output{
+#lyrics-output {
     font-family: monospace;
     font-size: 16px;
     line-height: 20px;
