@@ -12,7 +12,6 @@ html,body{
 #portrait {
     background: url(images/wu-tang-portrait.png) no-repeat;
     background-size: cover;
-    background-color: #FFC600;
     float: left;
     position: relative;
     height: 900px;
