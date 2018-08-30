@@ -1,2 +1,3 @@
 # wutang-ipsum
-Wu-Tang inspired Ipsum Lorem
+Wu-Tang 'Ipsum Lorem' text generator
+Wu-Tang Lyrics translated into Latin
